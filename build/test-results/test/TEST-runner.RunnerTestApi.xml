@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runner.RunnerTestApi" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-IN18SM9" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: Consultas Api
+
+  Scenario Outline: Buscar cerveceria por nombre                              ?[90m# src/main/resources/features/PruebasApi.feature:3?[0m
+    ?[36mGiven ?[0m?[36mQue tenemos la api de cervecerias?[0m
+    ?[36mWhen ?[0m?[36mEjecutamos el servicio para buscar la cerverceria <NombreCerveceria>?[0m
+    ?[36mThen ?[0m?[36mObtenemos la respuesta del parametro dado?[0m
+
+    Examples: 
+Test
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
