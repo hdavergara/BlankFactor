@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Technical test" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-12-01T02:59:07" hostname="DESKTOP-KN9PG4P" time="18.688">
+  <properties/>
+  <testcase name="Given We are on the BlankFactor main page" classname="Scenario: Technical test" time="0.0"/>
+  <testcase name="When We look for a given blog" classname="Scenario: Technical test" time="0.0"/>
+  <testcase name="Then We validate that the page shown is the correct one" classname="Scenario: Technical test" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Technical test" time="25.001"/>
+  <system-out><![CDATA[2021-nov.-30 21:59:01 [Test] INFO  : ============================ Start Test ==============================
+2021-nov.-30 21:59:07 [Test] INFO  : Opening URL BlankFactor
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 31360
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1638327543.587][WARNING]: This version of ChromeDriver has not been tested with Chrome version 96.
+nov. 30, 2021 9:59:03 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

@@ -1,103 +1,61 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/resources/features/PruebasApi.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/resources/features/Test.feature");
 formatter.feature({
   "line": 1,
-  "name": "Consultas Api",
+  "name": "Navigate in BlankFactor",
   "description": "",
-  "id": "consultas-api",
+  "id": "navigate-in-blankfactor",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "line": 3,
-  "name": "Buscar cerveceria por nombre",
-  "description": "",
-  "id": "consultas-api;buscar-cerveceria-por-nombre",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "Que tenemos la api de cervecerias",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "Ejecutamos el servicio para buscar la cerverceria \u003cNombreCerveceria\u003e",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "Obtenemos la respuesta del parametro dado",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 8,
-  "name": "",
-  "description": "",
-  "id": "consultas-api;buscar-cerveceria-por-nombre;",
-  "rows": [
-    {
-      "cells": [
-        "NombreCerveceria"
-      ],
-      "line": 9,
-      "id": "consultas-api;buscar-cerveceria-por-nombre;;1"
-    },
-    {
-      "cells": [
-        "lagunita"
-      ],
-      "line": 10,
-      "id": "consultas-api;buscar-cerveceria-por-nombre;;2"
-    }
-  ],
-  "keyword": "Examples"
+formatter.before({
+  "duration": 405521600,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 10,
-  "name": "Buscar cerveceria por nombre",
+  "line": 3,
+  "name": "Technical test",
   "description": "",
-  "id": "consultas-api;buscar-cerveceria-por-nombre;;2",
+  "id": "navigate-in-blankfactor;technical-test",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 4,
-  "name": "Que tenemos la api de cervecerias",
+  "name": "We are on the BlankFactor main page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 5,
-  "name": "Ejecutamos el servicio para buscar la cerverceria lagunita",
-  "matchedColumns": [
-    0
-  ],
+  "name": "We look for a given blog",
   "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "Obtenemos la respuesta del parametro dado",
+  "name": "We validate that the page shown is the correct one",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepApi.queTenemosLaApiDeCervecerias()"
+  "location": "StepTest.weAreOnTheBlankFactorMainPage()"
 });
 formatter.result({
-  "duration": 209897000,
+  "duration": 5860609200,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "lagunita",
-      "offset": 50
-    }
-  ],
-  "location": "StepApi.ejecutamosElServicioParaBuscarLaCerverceria(String)"
+  "location": "StepTest.weLookForAgivenBlog()"
 });
 formatter.result({
-  "duration": 2437866600,
+  "duration": 5768712000,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepApi.obtenemosLaRespuestaDelParametroDado()"
+  "location": "StepTest.weValidateThatThePageShownIsTheCorrectOne()"
+});
+formatter.result({
+  "duration": 12219440300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 692756500,
+  "status": "passed"
+});
 });

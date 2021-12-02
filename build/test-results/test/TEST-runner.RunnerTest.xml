@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runner.RunnerTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-KN9PG4P" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: Navigate in BlankFactor
+2021-nov.-30 21:59:25 [Test] INFO  : Title: Four benefits from workplace cultural diversity
+2021-nov.-30 21:59:25 [Test] INFO  : Title: Are we at the gates of the metaverse or is it a buzzword?
+2021-nov.-30 21:59:25 [Test] INFO  : Title: Is your tech business ready for Black Friday 2021?
+2021-nov.-30 21:59:25 [Test] INFO  : Title: A business survival guide for The Great Resignation
+2021-nov.-30 21:59:25 [Test] INFO  : Title: Three major takeaways from Money 20/20
+2021-nov.-30 21:59:25 [Test] INFO  : Title: Software scalability: The secret to long-term success
+2021-nov.-30 21:59:25 [Test] INFO  : Title: Sorting the SQL vs NoSQL database debate
+2021-nov.-30 21:59:25 [Test] INFO  : Title: Why your gateway needs an API gateway pattern
+2021-nov.-30 21:59:25 [Test] INFO  : Title: At the Epicenter of Fintech: Blankfactor at Money 2020
+2021-nov.-30 21:59:25 [Test] INFO  : Title: Payment Processing 101: How Do Payment Cards Work
+2021-nov.-30 21:59:26 [Test] INFO  : ============================= End Test ================================
+
+
+
+  Scenario: Technical test                                  ?[90m# src/main/resources/features/Test.feature:3?[0m
+    ?[32mGiven ?[0m?[32mWe are on the BlankFactor main page?[0m               ?[90m# StepTest.weAreOnTheBlankFactorMainPage()?[0m
+    ?[32mWhen ?[0m?[32mWe look for a given blog?[0m                           ?[90m# StepTest.weLookForAgivenBlog()?[0m
+    ?[32mThen ?[0m?[32mWe validate that the page shown is the correct one?[0m ?[90m# StepTest.weValidateThatThePageShownIsTheCorrectOne()?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m24,947s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
