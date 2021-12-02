@@ -1,4 +1,4 @@
-# Prueba Tecnica Softtek
+# Prueba Tecnica BlankFactor
 
 #Instrucciones para ejecutar el script
 
